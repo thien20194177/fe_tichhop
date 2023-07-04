@@ -119,7 +119,7 @@ for(let i =0; i< responseData.length; i++){
             <button type="submit" onClick={handleSubmit}>
               <i class="fa fa-user icon">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OOjs_UI_icon_search-ltr.svg/1200px-OOjs_UI_icon_search-ltr.svg.png"
+                  src={sample.img_url}
                   className="img-icon"
                 />
               </i>
